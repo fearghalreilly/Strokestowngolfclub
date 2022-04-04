@@ -107,7 +107,7 @@ const Prices = () => {
                          </h4>
                          <p>per year</p>
                        
-                         <button><Link to={Memership} target="_blank" download>Application Form</Link></button>
+                         <button><Link to={detail.membership} target="_blank" download>Application Form</Link></button>
 
                     </Content>
                     </SwiperSlide>

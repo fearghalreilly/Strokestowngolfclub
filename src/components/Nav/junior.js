@@ -9,11 +9,13 @@ import {Link} from "react-router-dom";
 import icon1 from '../../img/1553513772.svg'
 
 //Documents
-import Memership from '../../Files/juniorMemership.pdf'
-import SafeguardingP from '../../Files/safeguardingp.pdf'
-import SafeguardingS from '../../Files/safeguardings.pdf'
-import BullyingP from '../../Files/bullyingp.pdf'
-import JuniorClubD from '../../Files/juniorclubd.pdf'
+import Memership from '../../Files/JuniorMembership.pdf'
+import SafeguardingS from '../../Files/SafegaurdingStatement.pdf'
+import SafeguardingP from '../../Files/SafeguardingPolicy2021.pdf'
+import BullyingP from '../../Files/JuniorBullyingPolicy.pdf'
+import JuniorClubD from '../../Files/JuniorDisiplinaryPolicy.pdf'
+import JuniorsCodesOfConduct from '../../Files/JuniorsCodesOfConduct.pdf'
+import SafeguardingRiskAssessment from '../../Files/SafeguardingRiskAssessment.pdf'
 import { faHeading } from '@fortawesome/free-solid-svg-icons';
 
 import { motion } from "framer-motion/dist/framer-motion";
@@ -58,6 +60,8 @@ const Junior = () => {
            <button><Link to={SafeguardingS} target="_blank" download>Safeguarding Statement</Link></button>
            <button><Link to={BullyingP} target="_blank" download>Bullying Policy</Link></button>
            <button><Link to={JuniorClubD} target="_blank" download>Junior Club Displinary Policy</Link></button>
+           <button><Link to={JuniorsCodesOfConduct} target="_blank" download>Juniors Codes of Conduct</Link></button>
+           <button><Link to={SafeguardingRiskAssessment} target="_blank" download>Safeguarding Risk Assessment </Link></button>
         
        </AboutSectionInfo1>
        <AboutSectionIcon1 ref={element3} variants={scrollRevealt} animate={controls3} initial="hidden">

@@ -293,6 +293,7 @@ p {
     letter-spacing: 2px;
     margin: 0px;
     margin-bottom: 10px;
+    
 
 
     @media screen and (max-width: 765px) {

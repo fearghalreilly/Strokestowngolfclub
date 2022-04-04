@@ -38,9 +38,9 @@ const [click, setClick] = useState(false)
             <NavbarItem><NavLink to="/about">About</NavLink></NavbarItem>
             <NavbarItem><NavLink to="/course">Course</NavLink></NavbarItem>
             <NavbarItem><NavLink to="/membership">Membership</NavLink></NavbarItem>
-            <NavbarItem><a href="https://visitors.brsgolf.com/strokestown#/course/1" target="_blank" >Book Now</a></NavbarItem>
+            <NavbarItem><a href="https://visitors.brsgolf.com/strokestown#/course/1" target="_blank" >Book</a></NavbarItem>
             <NavbarItem><NavLink to="/clubnotes">Club Notes</NavLink></NavbarItem>
-            
+            <NavbarItem><NavLink to="/contactus">Contacts</NavLink></NavbarItem>
             <NavbarItem><NavLink to="/juniors">Juniors</NavLink></NavbarItem>
             <NavbarItem><NavLink to="/seniors">Seniors</NavLink></NavbarItem>
         </NavbarMenu>
